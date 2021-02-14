@@ -1,0 +1,39 @@
+{
+    "service": {
+        "host": "localhost",
+        "port": 6000
+    },
+    "save_format": {
+        "omit_display_name": false,
+        "save_albums": true,
+        "save_artists": true,
+        "save_tracks": true,
+        "track_analysis": true,
+        "track_features": true,
+        "track_history": true,
+        "playlist_history": true
+    },
+    "db": {
+        "host": "localhost",
+        "port": 27017,
+        "name": "spotify_db",
+        "user": "admin",
+        "pswd": "admin",
+        "conn_timeout": 10
+    },
+    "auth": {
+        "ClientID": "",
+        "ClientSecret": "",
+        "RedirectURL": "",
+        "Scopes": [
+            "user-read-recently-played",
+            "user-library-read",
+            "playlist-read-collaborative",
+            "playlist-read-private"
+        ],
+        "Endpoint": {
+            "AuthURL": "https://accounts.spotify.com/authorize",
+            "TokenURL": "https://accounts.spotify.com/api/token"
+        }
+    }
+}

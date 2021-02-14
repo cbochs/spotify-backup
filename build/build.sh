@@ -1,0 +1,1 @@
+go build -o bin/sp -mod vendor cmd/sp/sp.go
