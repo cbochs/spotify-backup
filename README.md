@@ -2,10 +2,12 @@
 
 A service for backing up your **listening history**, **liked songs**, and **playlists**.
 
-**Note**: many (if not all) features are in-progress right now. Until [v0.1](https://github.com/cbochs/spotify-backup/projects/1) is complete, most of these features are likely unavailable.
+---
+
+**NOTE**: many (if not all) features are in-progress right now. Until [v0.1](https://github.com/cbochs/spotify-backup/projects/1) is complete, most of these features are likely unavailable.
 
 **Features**
-* Full-features CLI to manage and run backups
+* Full-featured CLI to manage and run backups
 * Store your listening history, liked songs, and playlists to a database
 * Store incremental snapshots of liked songs or playlists
 * Store track details, track features, and track analysis
